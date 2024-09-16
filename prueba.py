@@ -8,3 +8,6 @@ print("segundo reglon")
 print(type("hola"))
 print(type(4))
 print(type(5.5))
+
+print("pruebagitignore")
+
