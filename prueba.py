@@ -8,3 +8,7 @@ print("segundo reglon")
 print(type("hola"))
 print(type(4))
 print(type(5.5))
+
+a=0
+a=1
+pi=3.14 
