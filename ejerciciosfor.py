@@ -66,5 +66,12 @@ def intereces_anuales():
         cantidad_Dinero = cantidad_Dinero + (cantidad_Dinero * inpuesto / 100)
         time.sleep(1)
 
-intereces_anuales()
+#intereces_anuales()
 
+def numero_triangulos():
+    numero = int(input("ingrese el numero de filas del triangulo:"))
+    for i in range(1, numero + 1, 1):
+        print(" " *(numero - i ) + "*" * (2 * i - 1))
+        time.sleep(1)
+
+numero_triangulos()
