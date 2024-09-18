@@ -120,5 +120,5 @@ def juego_piedra_papel_tijera():
     print(f"Resultado: {resultado}")
 
 # Ejecutar el juego
-juego_piedra_papel_tijera()
+#juego_piedra_papel_tijera()
 
