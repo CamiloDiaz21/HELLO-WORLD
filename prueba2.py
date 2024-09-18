@@ -122,8 +122,3 @@ def juego_piedra_papel_tijera():
 # Ejecutar el juego
 juego_piedra_papel_tijera()
 
-
-
-
-
-   
