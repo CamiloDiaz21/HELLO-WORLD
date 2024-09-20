@@ -74,4 +74,36 @@ def numero_triangulos():
         print(" " *(numero - i ) + "*" * (2 * i - 1))
         time.sleep(1)
 
-numero_triangulos()
+#numero_triangulos()
+
+def descubrir_contraseña():
+    contraseña = "camilo0521"
+    contraseña_ingresada = ""
+    intentos_ingresado = int(input("Por favor ingrese un numero de intentos:"))
+    intento = 1
+    while contraseña_ingresada != contraseña:
+        contraseña_ingresada = str(input("Ingrese la contraseña:"))
+
+        if contraseña_ingresada != contraseña:
+            print("La contraña no coincide")
+        elif contraseña_ingresada == contraseña:
+            print("La contraseña es correcta")
+        elif  contraseña_ingresada != contraseña:
+            print("Contraseña correcta")
+            break
+        elif  intento == intentos_ingresado:
+            print("Has excedido el numero de intentos permitidos")
+            break
+        intentos_ingresado = intento
+
+#descubrir_contraseña()
+
+def contar_caracteres():
+    texto = str(input("Por favor ingrese un texto:"))
+    letra = str(input("Por favor ingrese una letra:"))
+    contador =  0
+    for i in texto:
+       if  i == letra:
+           contador = contador + 1 
+    print("La letra", letra, "aparece en el texto", texto,":" " estas veces en el texto",contador)
+contar_caracteres()
