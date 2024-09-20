@@ -106,4 +106,4 @@ def contar_caracteres():
        if  i == letra:
            contador = contador + 1 
     print("La letra", letra, "aparece en el texto", texto,":" " estas veces en el texto",contador)
-contar_caracteres()
+#contar_caracteres()
